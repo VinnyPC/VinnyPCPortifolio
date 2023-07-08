@@ -34,3 +34,14 @@
     $('.social-links a').tooltip();
 
 })(jQuery);
+
+function copymail() {
+      var email = "viniciusdasilvadev@gmail.com";
+      var input = document.createElement('input');
+      input.setAttribute('value', email);
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+      alert("Email copiado!");
+    }

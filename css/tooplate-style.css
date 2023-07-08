@@ -102,6 +102,19 @@ b, strong {
   background: #800080 !important;
     color: #ffffff;
 }
+.custom-btn-bg3 {
+  background: #353535 !important;
+}
+.iconbtn{
+  padding-right: 10px;
+}
+.fa-hand-fist{
+  margin-right: 1.3em !important;
+}
+.fa-magnifying-glass {
+  margin-right: 1.1em !important;
+}
+
 .custom-btn-bg2:hover {
   background: #380038 !important;
   color: #ffffff;
@@ -127,7 +140,20 @@ b, strong {
 .animated-item {
   color: #212121;
 }
-
+.skillslist{
+  display: flex;
+  gap: 50px;
+}
+.list1 {
+  border-right: 1px solid #acacac31;
+  padding-right: 50px;
+}
+.skills i{
+  margin-right: 1em;
+}
+.fa-lightbulb{
+  margin-right: 1.5em !important;
+}
 .animated-item {
   font-size: 38px;
   line-height: inherit;
